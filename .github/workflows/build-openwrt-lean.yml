@@ -38,6 +38,7 @@ env:
   UPLOAD_WETRANSFER: false
   UPLOAD_RELEASE: true
   TZ: Asia/Shanghai
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true 
 
 jobs:
   build:
