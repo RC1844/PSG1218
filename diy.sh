@@ -27,5 +27,5 @@ sed -i '/set luci.main.mediaurlbase=\/luci-static\/bootstrap/d' feeds/luci/theme
 # git clone https://github.com/frainzy1477/luci-app-clash.git package/lean/luci-app-clash
 
 # 增加ssr
-# git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
-# git clone https://github.com/fw876/helloworld.git package/openwrt-packages/luci-app-ssr-plus
+git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/fw876/helloworld.git package/openwrt-packages/luci-app-ssr-plus
